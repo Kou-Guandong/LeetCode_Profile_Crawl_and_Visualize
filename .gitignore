@@ -1,0 +1,10 @@
+solved*
+*.ttf
+contest*
+test*
+.ipynb_checkpoints/
+.DS_Store
+profile_urls*
+authen*
+question*
+**/__pycache__/**
