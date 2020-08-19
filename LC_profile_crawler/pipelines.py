@@ -11,7 +11,7 @@ from datetime import date
 
 class ProfilePipeline(object):
     def __init__(self):
-        self.file = open("solved-{}.csv".format(date.today().strftime("%Y-%m-%d")), 'wb+')
+        self.file = open("hidden/solved-{}.csv".format(date.today().strftime("%Y-%m-%d")), 'wb+')
         self.exporter = CsvItemExporter(self.file)
         self.exporter.start_exporting()
 

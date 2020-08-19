@@ -8,3 +8,4 @@ profile_urls*
 authen*
 question*
 **/__pycache__/**
+hidden/
