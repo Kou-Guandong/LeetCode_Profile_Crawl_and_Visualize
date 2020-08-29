@@ -29,7 +29,7 @@ ROBOTSTXT_OBEY = True
 # See also autothrottle settings and docs
 DOWNLOAD_DELAY = 2
 # The download delay setting will honor only one of:
-CONCURRENT_REQUESTS_PER_DOMAIN = 8
+CONCURRENT_REQUESTS_PER_DOMAIN = 5
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
